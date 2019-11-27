@@ -1,11 +1,14 @@
 package com.example.json_from_php;
 
+
 import android.net.Uri;
 import android.util.Log;
-
 import com.koushikdutta.async.http.AsyncHttpClient;
 import com.koushikdutta.async.http.AsyncHttpPost;
 import com.koushikdutta.async.http.AsyncHttpResponse;
+
+
+
 
 public class phpConn {//https://github.com/koush/AndroidAsync
     static String answer = null;
@@ -26,5 +29,6 @@ public class phpConn {//https://github.com/koush/AndroidAsync
                 }
             });
     }
+
 
 }
